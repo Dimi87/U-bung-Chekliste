@@ -9,6 +9,14 @@ btn.addEventListener("click", function() {
 })
 
 
+const btnDelete = document.querySelector("button:nth-child(2)")
+btnDelete.addEventListener("click", function() {
+   
+    const ul = document.querySelector("ul")
+    ul.innerText = ""
+})
+
+
 
 
 
